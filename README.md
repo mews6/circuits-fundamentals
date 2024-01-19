@@ -8,4 +8,4 @@ As part of this project of mine, i'm providing a PDF with notes and the LaTeX te
 The template that was used in this project was produced using the Legrand Orange Book template, available [here](http://www.latextemplates.com/template/the-legrand-orange-book).
 Original author of the Legrand Orange Book template: Mathias Legrand (legrand.mathias@gmail.com) with modifications by: Vel (vel@latextemplates.com). Give them some love!
 
-The original license for this template is [CC BY-NC-SA 3.0 Deed][https://creativecommons.org/licenses/by-nc-sa/3.0/]
+The original license for this template is [CC BY-NC-SA 3.0 Deed](https://creativecommons.org/licenses/by-nc-sa/3.0/), All restrictions apply as far as i'm concerned, no Lawyer, but better safe than sorry.
