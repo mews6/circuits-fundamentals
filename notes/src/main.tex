@@ -184,6 +184,40 @@ We can describe the
 
 \chapter{Kirchoff's Laws}
 
+We can use the laws established by Kirchhoff to describe the behavior of current. 
+and/or voltage. At it's most basic, we can describe Kirchhoff's laws, or KCL, as:
+
+\begin{itemize}
+    \item $$\sum_{node} i_{enter} = 0$$
+    \item $$\sum_{node} i_{out} = 0$$
+    \item $$ \sum_{node} i_{enter} = \sum_{node} i_{out} $$
+\end{itemize}
+
+This means that to describe a current we'll 
+have to assume the current output and the current input of
+electrical signals will have a zero sum and that they will be equal to
+each other. Either of these definitions will be interchangeably useable. 
+
+For defining a circuit, we should do this for every node in a circuit so we can
+define a linear equation model. But we probably wouldn't want to define a whole circuit only 
+through KCL, because even though computationally it can technically be done, if we were to calculate
+the values of an entire circuit through Kirchhoff alone, it would generally give us 
+linear equation systems that are fairly big and tedious, and can become a differential equation systems
+in certain scenarios, adding even more complexity. We can see this because when
+defining currents and voltages, the eventual complexity of the system can be defined as:
+
+\begin{gather}
+    I_r * V_r = n\\
+    KCL = [n x n]
+\end{gather}
+
+\section{Gaussian Curves}
+
+When we define a Gaussian curve, we can use KCL's laws on them as if every curve acted
+as a node; Besides this, we can define closed circuits as specific gaussian curves, and 
+to a certain extent, make inputs and outputs dependant on this. This can simplify a circuit 
+system drastically.
+
 
 
 \end{document}
