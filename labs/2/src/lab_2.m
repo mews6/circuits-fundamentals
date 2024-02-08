@@ -23,4 +23,4 @@ J = A.^2
 invA = inv(A)
 cos_pi = cos(pi)
 
-pi_vec = 0::pi/4:2*pi
+pi_vec = 0:pi/4:2*pi
