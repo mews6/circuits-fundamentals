@@ -226,6 +226,38 @@ There is the possibility to use a version of the previous law where
 we don't measure Current, but voltage, this works through the following formula:
 $$\sum_{c.c}V_{i} = 0$$
 
+\section{Node Voltage Analysis}
+
+You can analyze the elements of a circuit by the voltages associated to the nodes
+of a system. given the expression 
+
+$$V_{ij} = V_i - V_j$$
+
+we can get a lot of information from a system. To apply this, we:
+
+\begin{itemize}
+    \item Identify the nodes
+    \item Identify/select ground
+    \item Determine what our equations are
+    \item Identify the restrictions of our voltage fonts
+    \item Check for voltage restrictions \begin{itemize}
+        \item Dependant \begin{itemize}
+            \item To ground
+            \item Floating
+        \end{itemize}
+        \item Independent \begin{itemize}
+            \item To ground 
+            \item Floating
+        \end{itemize}
+    \end{itemize}
+    \item Solve KCL equations for: \begin{itemize}
+        \item Gaussian Curves
+        \item Nodes
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Example}
+
 \section{Examples}
 
 \paragraph{3,1}
@@ -238,6 +270,5 @@ If we apply Kirchhoff's Voltage and Current law, then:
     x \to I_X = I_{R1} ; c \to I_{R1} = I_{R2} ; y \to I_{R2} = I_x <KCL>
 \end{gather}
 
-And then, if we use Kirchhoff's Current Law:
 
 \end{document}
